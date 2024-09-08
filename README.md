@@ -7,10 +7,10 @@
 <img src="https://www.cs.albany.edu/sccepr/img/logo1.png" alt="University Logo" width="260">
 
 ## Team
-- [Copp lab ](https://copplab.eng.uci.edu/)
+- [Copp lab](https://copplab.eng.uci.edu/)
 - [Data Mining and Management lab](http://www.cs.albany.edu/~petko/lab/)
 
-## Contents 
+## Contents
 - Introduction
 - Problem Formulation and Solution
 - Outline
@@ -19,7 +19,9 @@
 
 ## Introduction
 
-This repository contains the implementation of the **Variational Autoencoder (VAE)** model from the paper titled **"Multi-Objective Design of DNA-Stabilized Nanoclusters Using Variational Autoencoders With Automatic Feature Extraction."** The goal of this project is to design DNA templates that can tune the fluorescence properties of silver nanoclusters (AgN-DNAs) for applications such as deep tissue bioimaging.
+This repository contains code, training data, and experimental validation for a **regularized variational autoencoder (VAE)** model that performs automatic feature extraction for the multi-objective design of DNA-stabilized silver nanoclusters (AgN-DNAs). The repository accompanies the manuscript titled **"Multi-Objective Design of DNA-Stabilized Nanoclusters Using Variational Autoencoders With Automatic Feature Extraction"** (Sadeghi, Mastracco, et al., 2024), DOI [accepted manuscript - pending DOI].
+
+The goal of this project is to design DNA templates that can tune the fluorescence properties of silver nanoclusters (AgN-DNAs) for applications such as deep tissue bioimaging.
 
 Traditional approaches rely on manual feature engineering to design DNA sequences that produce desired properties in AgN-DNAs, which can be labor-intensive and limited to a single property. In contrast, this VAE-based model is generative, allowing for **automatic feature extraction** and **multi-objective design**, enabling the simultaneous optimization of multiple AgN-DNA properties, such as fluorescence color and brightness.
 
@@ -78,5 +80,5 @@ To set up the environment and run the code, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/dna-stabilized-nanoclusters-vae.git
-   cd dna-stabilized-nanoclusters-vae
+   git clone https://github.com/copplab/VAE-Ag-DNA-design.git
+   cd VAE-Ag-DNA-design
